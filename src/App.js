@@ -1,11 +1,12 @@
-import React from "react";
-import styled from "styled-components";
+import React, { Fragment } from "react";
+import GlobalStyle from "./styles/global";
 
-const Title = styled.h1`
-  color: '#F00',
-  font-size: 32px,
-`
+import Main from "./pages/Main/Index";
 
-const App = () => <Main />
-
-export default App
+const App = () => (
+  <Fragment>
+    <GlobalStyle />
+    <Main />
+  </Fragment>
+);
+export default App;

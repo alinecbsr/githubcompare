@@ -4,11 +4,11 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 10px;
 `;
 
 export const Form = styled.form`
-  margin-top: 20px;
+  margin-top: 10px;
   width: 100%;
   max-width: 400px;
   display: flex;
@@ -26,7 +26,7 @@ export const Form = styled.form`
 
   button {
     height: 55px;
-    padding: 0 20px;
+    padding: 0 10px;
     margin-left: 10px;
     background: #fff;
     color: #444;
@@ -37,6 +37,7 @@ export const Form = styled.form`
 
     &:hover {
       background: #444;
+      color: #fff;
     }
   }
 `;

@@ -12,11 +12,12 @@ const GlobalStyle = createGlobalStyle`
     background: #000;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
+    font-family: sans-serif;
   }
 
 .logoGit {
   width: 8rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 `;
